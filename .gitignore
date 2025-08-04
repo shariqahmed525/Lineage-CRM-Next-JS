@@ -45,5 +45,3 @@ next-env.d.ts
 .notes/
 .anima/
 .vault/
-
-/adrs
