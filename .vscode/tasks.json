@@ -1,0 +1,107 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Select All",
+      "type": "process",
+      "command": "${command:editor.action.selectAll}",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "AI Chat",
+      "type": "process",
+      "command": "${command:aichat.addsymbolstonewchataction}",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "AI Chat Focus",
+      "type": "process",
+      "command": "${command:aichat.focuschatpaneaction}",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "AI Chat Paste",
+      "type": "process",
+      "command": "${command:editor.action.clipboardPasteAction}",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "AI Chat Submit",
+      "type": "shell",
+      "command": "osascript -e 'tell application \"System Events\" to keystroke return using {command down}'",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
+// aichat.insertselectionintochat
+// - aiDocsSettings.action.open
+// - aiFeedback.action.reportBugs
+// - aiFeedback.action.reportFeedback
+// - aiSettings.action.toggleModel
+// - aichat.addEverythingAboutSymbolToCurrentChatAction
+// - aichat.addfilestochataction
+// - aichat.addfilestonewchataction
+// - aichat.addsymbolstochataction
+// - aichat.addsymbolstonewchataction
+// - aichat.close-sidebar
+// - aichat.fixspecificerrormessage
+// - aichat.focus
+// - aichat.focuschatpaneaction
+// - aichat.hidechatdropdown
+// - aichat.internal.submitUnifiedChatAction
+// - aichat.newchatbuttonaction
+// - aichat.open-ai-chat-editor
+// - aichat.open-ai-chat-side-pane
+// - aichat.opensidebar
+// - aichat.setcodeblockaction
+// - aichat.show-ai-chat
+// - aichat.sladsheditsubmitfrombutton
+// - aipane.aaaireview.focus
+// - aipopup.action.acceptPromptBar
+// - aipopup.action.addContextToBackgroundForCmdK
+// - aipopup.action.cancelPromptBar
+// - aipopup.action.cmdKRemoveFollowup
+// - aipopup.action.createInBackground
+// - aipopup.action.focusEdit
+// - aipopup.action.insertEditSelection
+// - aipopup.action.nextPromptBar
+// - aipopup.action.rejectPromptBar
+// - aiproject.action.hideModal
+// - aiproject.action.retryProjectPane
+// - aiproject.action.showModal
+// - aiproject.action.startProjectPane

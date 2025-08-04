@@ -1,0 +1,12 @@
+status_id,status_name,badge_color_hexcode,created_by
+fdb4cf56-f9f2-491f-b284-6e79fd6a5130,Dead Lead,#c2e3c1,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+8703045a-efea-48ba-a7a0-adc915a5b09a,Sale Lost,#b5dbc9,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+7047aa55-f779-4cf4-acc7-05f1afd23e3d,New Lead,#7fc7b6,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+f9c657bd-a450-4eaa-b817-05cd693dee87,Customer,#b6dcdc,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+a3e80701-0fe2-4c65-ac07-74d98db4faee,Door Knock,#acc3c3,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+d4ec9e82-ca7d-43b5-8cdc-1a8da938efef,Calling,#729aac,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+e63206ce-f4b8-4c82-8e3b-ebb6ff00f655,DK Only,#ebc2bf,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+c107ece1-808b-4e7c-8616-770868b47b50,Lapse / Cancel,#e6848f,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+2ef4f077-56bc-4d92-96cc-0c8b119a490e,Appointment,#c05965,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+ed28e987-21e4-467c-9f8b-2fde295d5391,Followup,#c2e3c1,d2bcf00f-51cd-4875-9d7a-09877781ea2f
+6c921111-565c-496a-a117-af8f841ad364,No Show,#b5dbc9,d2bcf00f-51cd-4875-9d7a-09877781ea2f

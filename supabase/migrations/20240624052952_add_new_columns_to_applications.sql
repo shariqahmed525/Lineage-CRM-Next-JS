@@ -1,0 +1,14 @@
+ALTER TABLE public.applications ADD COLUMN middle_initial VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN gender VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN tobacco_use VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN commission_rate double precision not null;
+ALTER TABLE public.applications ADD COLUMN first_name VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN last_name VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN street_address VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN street_address2 VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN city VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN state_code VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN zip VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN county_id UUID;
+ALTER TABLE public.applications ADD COLUMN phone1 VARCHAR(255);
+ALTER TABLE public.applications ADD COLUMN dob DATE;

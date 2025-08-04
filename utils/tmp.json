@@ -1,0 +1,83 @@
+{
+  "duplicates": [
+    {
+      "duplicate_lead_id": "b2734ab0-b31c-420c-8607-790e33ca5fa4",
+      "duplicate_info": {
+        "lead_id": "b2734ab0-b31c-420c-8607-790e33ca5fa4",
+        "person_id": "a36d5713-57af-4d2d-b48a-b6e645362528",
+        "first_name": "Curtis",
+        "last_name": "Brown",
+        "phone1": "4567890123"
+      },
+      "attempted_lead_info": {
+        "person.first_name": "Curtis",
+        "person.last_name": "Brown",
+        "person.phone1": "4567890123",
+        "person.phone2": "3210987654",
+        "person.email_address": "michael.brown@example.com",
+        "person.spouse_name": "Sarah Brown",
+        "location.street_address": "321 Pine St",
+        "location.city": "Newtown",
+        "location.state_code": "OR",
+        "location.zip": "67891",
+        "lead.date_received": "2023-10-04",
+        "lead.lead_type": "TypeD",
+        "lead.quick_note": "Note4"
+      }
+    },
+    {
+      "duplicate_lead_id": "21bbe311-bd63-45c4-a32f-0262c539265f",
+      "duplicate_info": {
+        "lead_id": "21bbe311-bd63-45c4-a32f-0262c539265f",
+        "person_id": "10867db7-21e5-4d1b-ba9b-3b866a7f6360",
+        "first_name": "Emily",
+        "last_name": "Curtis",
+        "phone1": "5678901234"
+      },
+      "attempted_lead_info": {
+        "person.first_name": "Emily",
+        "person.last_name": "Curtis",
+        "person.phone1": "5678901234",
+        "person.phone2": "4321098765",
+        "person.email_address": "emily.davis@example.com",
+        "person.spouse_name": "James Davis",
+        "location.street_address": "654 Maple St",
+        "location.city": "Oldtown",
+        "location.state_code": "OR",
+        "location.zip": "67891",
+        "lead.date_received": "2023-10-05",
+        "lead.lead_type": "TypeE",
+        "lead.quick_note": "Note5"
+      }
+    },
+    {
+      "duplicate_lead_id": "b67f8168-f643-4818-94a4-3157dd8ea4bd",
+      "duplicate_info": {
+        "lead_id": "b67f8168-f643-4818-94a4-3157dd8ea4bd",
+        "person_id": "151b7f2c-33d7-4aa2-a618-cf9b588fa1dc",
+        "first_name": "Curtis",
+        "last_name": "Wilson",
+        "phone1": "6789012345"
+      },
+      "attempted_lead_info": {
+        "person.first_name": "Curtis",
+        "person.last_name": "Wilson",
+        "person.phone1": "6789012345",
+        "person.phone2": "5432109876",
+        "person.email_address": "david.wilson@example.com",
+        "person.spouse_name": "Laura Wilson",
+        "location.street_address": "987 Birch St",
+        "location.city": "Smalltown",
+        "location.state_code": "OR",
+        "location.zip": "67891",
+        "lead.date_received": "2023-10-06",
+        "lead.lead_type": "TypeF",
+        "lead.quick_note": "Note6"
+      }
+    }
+  ],
+  "leadsAdded": 0,
+  "leadsSkipped": 0,
+  "leadsProcessed": 3,
+  "duplicatesFound": 3
+}

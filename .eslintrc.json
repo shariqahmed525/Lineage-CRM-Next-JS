@@ -1,0 +1,31 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["import", "@typescript-eslint"],
+  "rules": {
+    "react/display-name": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "newlines-between": "always",
+        "alphabetize": { "order": "asc", "caseInsensitive": true }
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "varsIgnorePattern": "^_",
+        "args": "all",
+        "ignoreRestSiblings": true,
+        "vars": "all",
+        "argsIgnorePattern": "^_",
+        "caughtErrors": "none"
+      }
+    ]
+  }
+}

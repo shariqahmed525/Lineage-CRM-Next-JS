@@ -1,0 +1,45 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.enablePaths": ["supabase/functions"],
+  "deno.lint": true,
+  "deno.unstable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": [
+    "./src"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "explorer.excludeGitIgnore": false,
+  "files.exclude": {
+    "**/*.pem": true,
+    "**/*.tsbuildinfo": true,
+    "**/.DS_Store": true,
+    "**/.env*.local": false,
+    "**/.env.local": false,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/.vercel": true,
+    "**/.yarn": true,
+    "**/CVS": true,
+    "**/bower_components": true,
+    "**/build": true,
+    "**/next-env.d.ts": true,
+    "**/node_modules": true,
+    "**/npm-debug.log*": true,
+    "**/out": true,
+    "**/yarn-debug.log*": true,
+    "**/yarn-error.log*": true
+  },
+  "cmake.configureOnOpen": false,
+}
